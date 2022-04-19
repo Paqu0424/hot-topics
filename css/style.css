@@ -205,4 +205,8 @@ hr {
   .article-title {
     text-align: left;
   }
+
+  .masthead > h1 {
+    text-align: left;
+  }
 }
