@@ -48,6 +48,7 @@ hr {
   font-family: var(--font-serif);
   margin-top: 0;
   color: #344964;
+  text-align: center;
 }
 
 .d-flex {
