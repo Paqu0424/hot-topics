@@ -116,7 +116,6 @@ hr {
 
 .center-img {
   margin-inline: auto;
-  max-width: var(--max-page-width);
 }
 
 .footer {
@@ -148,11 +147,13 @@ hr {
 
   .tiles {
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 
   .article-img {
     float: left;
     padding-right: 2rem;
+    width: 15rem;
   }
 
   .mobile-tag {
