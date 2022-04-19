@@ -4,10 +4,6 @@
   --font-sans: 'Source Sans Pro', sans-serif;
 }
 
-figure {
-  margin: 0;
-}
-
 *,
 *::before,
 *::after {
@@ -22,6 +18,10 @@ html {
 
 body {
   min-height: 100vh;
+}
+
+figure {
+  margin: 0;
 }
 
 h2 {
@@ -116,6 +116,7 @@ hr {
 .tiles {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 .footer {
@@ -190,7 +191,7 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .article-desk {
+  .article {
     display: grid;
     grid-template-columns: auto auto 1fr;
   }
