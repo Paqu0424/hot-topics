@@ -137,14 +137,8 @@ hr {
   margin-bottom: 1rem;
 }
 
-.article-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.article-body > p {
-  margin: 0;
+.article-body > p:first-of-type {
+  margin-top: 0;
 }
 
 /* MEDIA QUERIES */
