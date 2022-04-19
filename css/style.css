@@ -4,6 +4,10 @@
   --font-sans: 'Source Sans Pro', sans-serif;
 }
 
+figure {
+  margin: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -114,10 +118,6 @@ hr {
   grid-template-columns: 1fr;
 }
 
-.center-img {
-  margin-inline: auto;
-}
-
 .footer {
   display: flex;
   flex-wrap: nowrap;
@@ -129,6 +129,10 @@ hr {
 
 .footer a {
   color: grey;
+}
+
+.article-img {
+  width: 100%;
 }
 
 /* MEDIA QUERIES */
@@ -166,6 +170,10 @@ hr {
 }
 
 @media only screen and (min-width: 1280px) {
+  .article-img {
+    float: none;
+  }
+
   .header {
     grid-template-columns: repeat(3, auto) 1fr;
   }
