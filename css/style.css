@@ -72,7 +72,7 @@ hr {
 
 .logo {
   width: 7rem;
-  padding-top: 1rem;
+  margin-block: 1rem;
 }
 
 .masthead {
