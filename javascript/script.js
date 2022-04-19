@@ -6,7 +6,7 @@ let url = location.href;
 
 const loadContent = async (href) => {
   const parsedUrl = new URL(href);
-  const hash = parsedUrl.hash || '#_home.html';
+  const hash = parsedUrl.hash || '#home.html';
   const partial = await fetch(`/partials/${hash.slice(1)}`);
   container.innerHTML = await partial.text();
 };
