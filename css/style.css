@@ -134,6 +134,17 @@ hr {
 
 .article-img {
   width: 100%;
+  margin-bottom: 1rem;
+}
+
+.article-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.article-body > p {
+  margin: 0;
 }
 
 /* MEDIA QUERIES */
@@ -157,7 +168,7 @@ hr {
 
   .article-img {
     float: left;
-    padding-right: 2rem;
+    margin-right: 2rem;
     width: 15rem;
   }
 
@@ -172,6 +183,7 @@ hr {
 
 @media only screen and (min-width: 1280px) {
   .article-img {
+    margin-right: 0;
     float: none;
   }
 
@@ -194,5 +206,9 @@ hr {
   .article {
     display: grid;
     grid-template-columns: auto 1fr;
+  }
+
+  .article-title {
+    text-align: left;
   }
 }
